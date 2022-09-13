@@ -1,0 +1,56 @@
+.principal {
+    background-color: #7a2b58;
+    bottom: 36px;
+    height: 630px;
+    position: relative;
+    width: 360px;
+    .principal_bolsafixa {
+        border: 2px solid white ;
+        border-radius: 10px;
+        height: 493px;
+        left: 33px;
+        position: relative;
+        top: 60px;
+        width: 220px;
+    }
+    .principal_bolsa {
+        bottom: 50px;
+        left: 50px;
+        position: relative;
+        width: 120px;
+    } 
+    .principal_titulo {
+        bottom: 25px;
+        color: #ffcc33;
+        font-size: 1.3rem;
+        text-align: center;
+        position: relative;
+    }
+    .principal_Texto {
+        color: white;
+        margin-left: 10px;
+        text-align: left;
+
+    }
+    .principal_lista {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        .lista_item {
+            color: white;
+            font-size: 0.8rem;
+            margin-top: 15px;
+        }
+    }
+    .principal_iconeazul {
+        background: url(../assests/icones/icon-blue.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: -80px;
+        height: 50px;
+        position:absolute;
+        right: 190px;
+        width: 100px;
+    }
+    
+}
