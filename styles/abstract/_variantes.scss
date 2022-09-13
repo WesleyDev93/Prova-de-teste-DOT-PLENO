@@ -1,0 +1,14 @@
+@mixin cartoes {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    height: 188px;
+    width: 220px;
+}
+
+
+@mixin card-body {
+    background-color: #ffcc33;
+    color: #7a2b58;
+    width: 220px;
+}

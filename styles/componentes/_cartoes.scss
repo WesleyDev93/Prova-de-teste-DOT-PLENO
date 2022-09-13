@@ -1,0 +1,77 @@
+@import '../abstract/variantes';
+
+.btn-group {
+    .primeiro-cartao {
+        @include cartoes;
+        height: 188px;
+        left: 74px;
+        position: relative;
+        top: 70px;
+        
+    }
+    .cartao_mulherlousa {
+        left: 45px;
+        position: relative;
+        height: 130px;
+        top: 20px;
+        width: 130px;
+    }
+    .cartao_retangulo {
+        position: relative;
+        right: 2px;
+        top: 25px;
+        width: 221px;
+    }
+    .botao {
+        position: relative;
+        right: 61px;
+        top: 225px;
+        width: 60px;
+    }
+    .card_interacao {
+        background: yellow;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        position: relative;
+        right: 180px;
+        top: 270px;
+        text-align: center;
+        width: 220px;
+    }
+    .card_texto {
+        margin-top: 15px;
+    }
+    .card-body {
+       @include card-body;
+       
+    }
+    .posicao01 {
+        position: relative;
+        right: 205px;
+        top: 270px;
+        
+    }
+}  
+
+
+
+.btn-group {
+    .segundo-cartao {
+       @include cartoes;
+       left: 75px;
+       position: absolute;
+       top: 420px;
+       
+}
+    .cartao_arquivo {
+        left: 40px;
+        position: relative;
+        top: 50px;
+        width: 130px;
+        
+}
+
+}
+
+
+

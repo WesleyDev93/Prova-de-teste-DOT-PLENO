@@ -94,36 +94,38 @@
   text-align: center;
   width: 240px;
 }
-.principal_cards .btn-group .primeiro-cartao {
+
+.btn-group .primeiro-cartao {
   border: 1px solid white;
   background-color: white;
   border-radius: 20px;
   height: 188px;
+  width: 220px;
+  height: 188px;
   left: 74px;
   position: relative;
   top: 70px;
-  width: 220px;
 }
-.principal_cards .btn-group .cartao_mulherlousa {
+.btn-group .cartao_mulherlousa {
   left: 45px;
   position: relative;
   height: 130px;
   top: 20px;
   width: 130px;
 }
-.principal_cards .btn-group .cartao_retangulo {
+.btn-group .cartao_retangulo {
   position: relative;
   right: 2px;
   top: 25px;
   width: 221px;
 }
-.principal_cards .btn-group .botao {
+.btn-group .botao {
   position: relative;
-  right: 51px;
-  top: 156px;
-  width: 35px;
+  right: 61px;
+  top: 225px;
+  width: 60px;
 }
-.principal_cards .btn-group .card_interacao {
+.btn-group .card_interacao {
   background: yellow;
   border: 1px solid transparent;
   border-radius: 20px;
@@ -133,6 +135,33 @@
   text-align: center;
   width: 220px;
 }
-.principal_cards .btn-group .card_texto {
+.btn-group .card_texto {
   margin-top: 15px;
+}
+.btn-group .card-body {
+  background-color: #ffcc33;
+  color: #7a2b58;
+  width: 220px;
+}
+.btn-group .posicao01 {
+  position: relative;
+  right: 205px;
+  top: 270px;
+}
+
+.btn-group .segundo-cartao {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  height: 188px;
+  width: 220px;
+  left: 75px;
+  position: absolute;
+  top: 420px;
+}
+.btn-group .cartao_arquivo {
+  left: 40px;
+  position: relative;
+  top: 50px;
+  width: 130px;
 }/*# sourceMappingURL=styles.css.map */
