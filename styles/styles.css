@@ -1,23 +1,23 @@
 .cabecalho .cabecalho_bg {
-  width: 75%;
+  width: 100%;
 }
 .cabecalho .cabecalho_logo {
-  bottom: 280px;
-  left: 95px;
+  bottom: 390px;
+  left: 140px;
   position: relative;
   width: 100px;
 }
 .cabecalho .cabecalho_titulo {
   color: white;
   font-size: 1.2rem;
-  left: 45px;
+  left: 80px;
   position: absolute;
   top: 150px;
 }
 .cabecalho .cabecalho_texto {
   color: white;
   font-size: 0.9rem;
-  left: 67px;
+  left: 100px;
   position: absolute;
   top: 175px;
 }
@@ -33,7 +33,7 @@
   border: 2px solid white;
   border-radius: 10px;
   height: 493px;
-  left: 33px;
+  left: 75px;
   position: relative;
   top: 60px;
   width: 220px;
@@ -73,6 +73,59 @@
   bottom: -80px;
   height: 50px;
   position: absolute;
-  right: 190px;
+  right: 235px;
   width: 100px;
+}
+
+.principal_cards {
+  background-color: #03b5b0;
+  height: 1793px;
+  position: relative;
+  top: 137px;
+  width: 360px;
+}
+.principal_cards .principal_subtitulo01 {
+  border: 1px solid transparent;
+  color: white;
+  font-size: 0.8rem;
+  left: 65px;
+  position: relative;
+  top: 40px;
+  text-align: center;
+  width: 240px;
+}
+.principal_cards .btn-group .primeiro-cartao {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  height: 188px;
+  left: 74px;
+  position: relative;
+  top: 70px;
+  width: 220px;
+}
+.principal_cards .btn-group .cartao_mulherlousa {
+  left: 45px;
+  position: relative;
+  height: 130px;
+  top: 20px;
+  width: 130px;
+}
+.principal_cards .btn-group .cartao_retangulo {
+  position: relative;
+  right: 2px;
+  top: 25px;
+  width: 221px;
+}
+.principal_cards .btn-group .botao {
+  position: relative;
+  right: 51px;
+  top: 156px;
+  width: 35px;
+}
+.principal_cards .btn-group .dropdown-menu {
+  background-color: yellow;
+  color: #7a2b58;
+  height: 188px;
+  width: 220px;
 }/*# sourceMappingURL=styles.css.map */

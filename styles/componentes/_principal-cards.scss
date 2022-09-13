@@ -1,0 +1,47 @@
+.principal_cards {
+    background-color: #03b5b0;
+    height: 1793px;
+    position: relative;
+    top: 137px;
+    width: 360px;
+    .principal_subtitulo01 {
+        border: 1px solid transparent;
+        color: white;
+        font-size: 0.8rem;
+        left: 65px;
+        position: relative;
+        top: 40px;
+        text-align: center;
+        width: 240px;
+    }
+    .btn-group {
+        .primeiro-cartao {
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 20px;
+            height: 188px;
+            left: 74px;
+            position: relative;
+            top: 70px;
+            width: 220px;
+        }
+        .cartao_mulherlousa {
+            left: 45px;
+            position: relative;
+            height: 130px;
+            top: 20px;
+            width: 130px;
+        }
+        .cartao_retangulo {
+            position: relative;
+            right: 2px;
+            top: 25px;
+            width: 221px;
+        }
+        .botao {
+            position: relative;
+            right: 51px;
+            top: 156px;
+            width: 35px;
+        }
+}
