@@ -1,1 +1,23 @@
-/*# sourceMappingURL=styles.css.map */
+.cabecalho .cabecalho_bg {
+  width: 75%;
+}
+.cabecalho .cabecalho_logo {
+  bottom: 280px;
+  left: 95px;
+  position: relative;
+  width: 100px;
+}
+.cabecalho .cabecalho_titulo {
+  color: white;
+  font-size: 1.2rem;
+  left: 45px;
+  position: absolute;
+  top: 150px;
+}
+.cabecalho .cabecalho_texto {
+  color: white;
+  font-size: 0.9rem;
+  left: 67px;
+  position: absolute;
+  top: 175px;
+}/*# sourceMappingURL=styles.css.map */
