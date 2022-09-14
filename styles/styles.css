@@ -325,4 +325,29 @@
   bottom: 260px;
   left: 40px;
   position: relative;
+}
+
+.accordion_textos {
+  bottom: 200px;
+  position: relative;
+}
+.accordion_textos .estiloTexto {
+  left: 100px;
+  position: relative;
+  padding: 20px;
+}
+.accordion_textos .accordion-header {
+  background: #7a2b58;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 0px 0px 0px 30px;
+}
+.accordion_textos .alteraSimbolo {
+  border: 1px solid transparent;
+  background: #ffcc33;
+  color: white;
+  font-size: 1.5rem;
+  padding: 18px;
+  left: 304px;
+  position: relative;
 }/*# sourceMappingURL=styles.css.map */

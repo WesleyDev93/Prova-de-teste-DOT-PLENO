@@ -1,5 +1,21 @@
 @import '../abstract/variantes';
 
 .accordion_textos {
-
+    bottom: 200px;
+    position: relative;
+    
+     .estiloTexto {
+        left: 100px;
+        position: relative;
+        padding: 20px;
+    
+     }
+     .accordion-header {
+       @include estiloBotaoAccordion;
+     }
+     .alteraSimbolo {
+        @include alteraSimbolo;
+        left: 304px;
+        position: relative;
+     }
 }
