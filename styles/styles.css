@@ -272,4 +272,29 @@
   top: 30px;
   text-align: center;
   width: 300px;
+}
+
+.accordion .circulo_img {
+  left: 40px;
+  height: 280px;
+  position: relative;
+  top: 50px;
+  width: 280px;
+}
+.accordion .alteraCirculo {
+  border: 1px solid black;
+  border-radius: 9999px;
+  bottom: 170px;
+  left: 103px;
+  padding: 76px;
+  position: relative;
+  width: 150px;
+}
+.accordion .circulo_texto {
+  bottom: 300px;
+  left: 100px;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  width: 170px;
 }/*# sourceMappingURL=styles.css.map */
