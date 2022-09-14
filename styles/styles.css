@@ -79,6 +79,8 @@
 
 .principal_cards {
   background-color: #03b5b0;
+  display: flex;
+  flex-direction: column;
   height: 1100px;
   position: relative;
   top: 137px;
@@ -119,35 +121,6 @@
   top: 25px;
   width: 221px;
 }
-.btn-group .botao {
-  position: relative;
-  right: 61px;
-  top: 225px;
-  width: 60px;
-}
-.btn-group .card_interacao {
-  background: yellow;
-  border: 1px solid transparent;
-  border-radius: 20px;
-  position: relative;
-  right: 180px;
-  top: 270px;
-  text-align: center;
-  width: 220px;
-}
-.btn-group .card_texto {
-  margin-top: 15px;
-}
-.btn-group .card-body {
-  background-color: #ffcc33;
-  color: #7a2b58;
-  width: 220px;
-}
-.btn-group .posicao01 {
-  position: relative;
-  right: 205px;
-  top: 270px;
-}
 
 .btn-group .segundo-cartao {
   border: 1px solid white;
@@ -165,17 +138,6 @@
   top: 50px;
   width: 130px;
 }
-.btn-group .botao02 {
-  position: relative;
-  right: 120px;
-  top: 580px;
-  width: 60px;
-}
-.btn-group .posicao02 {
-  position: relative;
-  right: 260px;
-  top: 650px;
-}
 
 .btn-group .terceiro-cartao {
   border: 1px solid white;
@@ -184,7 +146,7 @@
   height: 188px;
   width: 220px;
   position: relative;
-  right: 255px;
+  right: 150px;
   top: 750px;
 }
 .btn-group .cartao_pessoasMesa {
@@ -198,15 +160,4 @@
   top: 30px;
   right: 2px;
   width: 221px;
-}
-.btn-group .botao03 {
-  position: relative;
-  right: 390px;
-  top: 920px;
-  width: 60px;
-}
-.btn-group .posicao03 {
-  position: relative;
-  top: 1000px;
-  right: 540px;
 }/*# sourceMappingURL=styles.css.map */
