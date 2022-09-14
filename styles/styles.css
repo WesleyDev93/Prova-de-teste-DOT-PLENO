@@ -203,4 +203,8 @@
   display: none;
   position: relative;
   top: 20px;
+}
+
+.botao:hover {
+  background-color: #7a2b58;
 }/*# sourceMappingURL=styles.css.map */
