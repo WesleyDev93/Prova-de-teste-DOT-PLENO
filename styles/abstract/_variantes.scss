@@ -39,3 +39,12 @@
     height: 50px;
     width: 100px;
 }
+
+
+@mixin accordeonTexto {
+    border: 1px solid transparent;
+    color: black;
+    font-size: 1.09rem;
+    text-align: center;
+    width: 300px;
+}

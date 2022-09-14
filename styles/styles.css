@@ -267,11 +267,13 @@
   border: 1px solid transparent;
   color: black;
   font-size: 1.09rem;
+  text-align: center;
+  width: 300px;
   left: 30px;
+  margin-bottom: 30px;
   position: relative;
   top: 30px;
   text-align: center;
-  width: 300px;
 }
 
 .accordion .circulo_img {
@@ -297,4 +299,30 @@
   padding: 20px;
   text-align: center;
   width: 170px;
+}
+
+.accordion .posicao_circulo01 {
+  bottom: 510px;
+  position: relative;
+  left: 145px;
+}
+.accordion .posicao_circulo02 {
+  bottom: 330px;
+  left: 170px;
+  position: relative;
+}
+.accordion .posicao_circulo03 {
+  bottom: 326px;
+  position: relative;
+  right: 115px;
+}
+.accordion .accordion_texto02 {
+  border: 1px solid transparent;
+  color: black;
+  font-size: 1.09rem;
+  text-align: center;
+  width: 300px;
+  bottom: 260px;
+  left: 40px;
+  position: relative;
 }/*# sourceMappingURL=styles.css.map */

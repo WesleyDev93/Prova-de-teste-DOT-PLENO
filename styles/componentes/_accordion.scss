@@ -6,14 +6,13 @@
      height: 1500px;
      width: 360px;
      .accordion_texto {
-        border: 1px solid transparent;
-        color: black;
-        font-size: 1.09rem;
+        @include accordeonTexto;
         left: 30px;
+        margin-bottom: 30px;
         position: relative;
         top: 30px;
         text-align: center;
-        width: 300px;
+       
      }
 }
 
@@ -48,3 +47,28 @@
 }
 
 
+
+.accordion {
+    .posicao_circulo01 {
+        bottom: 510px;
+        position: relative;
+        left: 145px;
+    }
+    .posicao_circulo02 {
+        bottom: 330px;
+        left: 170px;
+        position: relative;
+    }
+    .posicao_circulo03 {  
+        bottom: 326px;
+        position: relative;
+        right: 115px;
+    }
+    .accordion_texto02 {
+        @include accordeonTexto;
+        bottom: 260px;
+        left: 40px;
+        position: relative;
+    
+    }
+}
