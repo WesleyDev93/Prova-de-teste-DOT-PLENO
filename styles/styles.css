@@ -79,7 +79,7 @@
 
 .principal_cards {
   background-color: #03b5b0;
-  height: 1793px;
+  height: 1100px;
   position: relative;
   top: 137px;
   width: 360px;
@@ -164,4 +164,49 @@
   position: relative;
   top: 50px;
   width: 130px;
+}
+.btn-group .botao02 {
+  position: relative;
+  right: 120px;
+  top: 580px;
+  width: 60px;
+}
+.btn-group .posicao02 {
+  position: relative;
+  right: 260px;
+  top: 650px;
+}
+
+.btn-group .terceiro-cartao {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  height: 188px;
+  width: 220px;
+  position: relative;
+  right: 255px;
+  top: 750px;
+}
+.btn-group .cartao_pessoasMesa {
+  left: 50px;
+  position: relative;
+  top: 20px;
+  width: 130px;
+}
+.btn-group .cartao_retangulo03 {
+  position: relative;
+  top: 30px;
+  right: 2px;
+  width: 221px;
+}
+.btn-group .botao03 {
+  position: relative;
+  right: 390px;
+  top: 920px;
+  width: 60px;
+}
+.btn-group .posicao03 {
+  position: relative;
+  top: 1000px;
+  right: 540px;
 }/*# sourceMappingURL=styles.css.map */

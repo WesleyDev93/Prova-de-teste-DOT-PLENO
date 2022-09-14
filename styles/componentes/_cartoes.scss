@@ -67,11 +67,53 @@
         left: 40px;
         position: relative;
         top: 50px;
+        width: 130px;  
+}
+    .botao02 {
+        position: relative;
+        right: 120px;
+        top: 580px;
+        width: 60px;
+    }
+    .posicao02 {
+        position: relative;
+        right: 260px;
+        top: 650px;
+    }
+
+}
+
+
+
+.btn-group {
+    .terceiro-cartao {
+        @include cartoes;
+        position: relative;
+        right: 255px;
+        top: 750px;
+    }
+    .cartao_pessoasMesa {
+        left: 50px;
+        position: relative;
+        top: 20px;
         width: 130px;
-        
+    }
+    .cartao_retangulo03 {
+        position: relative;
+        top: 30px;
+        right: 2px;
+        width: 221px;
+    }
+    .botao03 {
+        position: relative;
+        right: 390px;
+        top: 920px;
+        width: 60px;
+    }
+    .posicao03 {
+        position: relative;
+        top: 1000px;
+        right: 540px;
+    }
 }
-
-}
-
-
 
