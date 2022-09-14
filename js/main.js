@@ -23,14 +23,6 @@ const texto02 =  document.querySelector ('.posicaoTexto02');
 const texto03 = document.querySelector ('.posicaoTexto03');
 
 
-//comportamentos
-
-
-const trocaCor = document.querySelector ('.trocaCor');
-
-console.log (trocaCor);
-
-
 // eventos
 
 
@@ -39,8 +31,6 @@ botao01.addEventListener ('click', () =>{
      texto02.style.display = 'none';
      texto03.style.display = 'none';
 });
-
-
 
 
 botao02.addEventListener ('click', () =>{
