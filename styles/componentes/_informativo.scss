@@ -1,0 +1,49 @@
+@import '../abstract/variantes';
+
+.informativo {
+     background-color: #353535;
+     height: 950px;
+     width: 360px;
+     .infomativo_titulo {
+        color: #03b5b0;
+        font-size: 1.5rem;
+        position: relative;
+        top: 220px;
+        text-align: center;
+     }
+     .informativo_imagem {
+        height: 288px;
+        position: relative;
+        top: 280px;
+        width: 360px;
+     }
+     .enfeite6 {
+        @include enfeites;
+        background: url(../assests/icones/enfeite\ \ 6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        right: 30px;
+        top: 280px;
+        
+     }
+     .enfeite7 {
+        @include enfeites;
+        background: url(../assests/icones/enfeite\ 7.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        left: 280px;
+        position: relative;
+        top: 250px;
+     }
+     .informativo_texto {
+        border: 1px solid transparent;
+        color: white;
+        font-size: 1.09rem;
+        left: 23px;
+        position: relative;
+        top: 310px;
+        text-align: center;
+        width: 320px;
+     }
+}

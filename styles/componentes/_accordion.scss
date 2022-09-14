@@ -1,0 +1,18 @@
+@import '../abstract/variantes';
+
+
+.accordion {
+    background-color: white;
+     height: 1500px;
+     width: 360px;
+     .accordion_texto {
+        border: 1px solid transparent;
+        color: black;
+        font-size: 1.09rem;
+        left: 30px;
+        position: relative;
+        top: 30px;
+        text-align: center;
+        width: 300px;
+     }
+}
