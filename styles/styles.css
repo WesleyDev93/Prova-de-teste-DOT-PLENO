@@ -81,7 +81,7 @@
   background-color: #03b5b0;
   display: flex;
   flex-direction: column;
-  height: 1100px;
+  height: 1350px;
   position: relative;
   top: 137px;
   width: 360px;
@@ -89,7 +89,7 @@
 .principal_cards .principal_subtitulo01 {
   border: 1px solid transparent;
   color: white;
-  font-size: 0.8rem;
+  font-size: 1.09rem;
   left: 65px;
   position: relative;
   top: 40px;
@@ -121,6 +121,29 @@
   top: 25px;
   width: 221px;
 }
+.btn-group .botao {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 9999px;
+  padding: 10px;
+  width: 50px;
+}
+.btn-group .posicaoBotao01 {
+  bottom: 5px;
+  left: 85px;
+  position: relative;
+}
+.btn-group .card-body {
+  border: 1px solid #ffcc33;
+  border-radius: 10px;
+  background-color: #ffcc33;
+  color: #7a2b58;
+  text-align: center;
+  width: 220px;
+}
+.btn-group .posicaoTexto01 {
+  display: none;
+}
 
 .btn-group .segundo-cartao {
   border: 1px solid white;
@@ -130,13 +153,23 @@
   width: 220px;
   left: 75px;
   position: absolute;
-  top: 420px;
+  top: 455px;
 }
 .btn-group .cartao_arquivo {
   left: 40px;
   position: relative;
   top: 50px;
   width: 130px;
+}
+.btn-group .posicaoBotao02 {
+  position: relative;
+  right: 46px;
+  top: 110px;
+}
+.btn-group .posicaoTexto02 {
+  display: none;
+  position: relative;
+  top: 115px;
 }
 
 .btn-group .terceiro-cartao {
@@ -146,8 +179,8 @@
   height: 188px;
   width: 220px;
   position: relative;
-  right: 150px;
-  top: 750px;
+  right: 145px;
+  top: 820px;
 }
 .btn-group .cartao_pessoasMesa {
   left: 50px;
@@ -160,4 +193,22 @@
   top: 30px;
   right: 2px;
   width: 221px;
+}
+.btn-group .posicaoBotao03 {
+  left: 85px;
+  position: relative;
+  top: 10px;
+}
+.btn-group .posicaoTexto03 {
+  display: none;
+  position: relative;
+  top: 20px;
+}
+
+.trocaCor {
+  background-color: #7a2b58;
+  border: 1px solid #7a2b58;
+  border-radius: 9999px;
+  padding: 10px;
+  width: 50px;
 }/*# sourceMappingURL=styles.css.map */

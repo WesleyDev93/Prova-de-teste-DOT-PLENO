@@ -22,7 +22,20 @@
         top: 25px;
         width: 221px;
     }
-   
+     .botao {
+        @include botoes;
+     }
+     .posicaoBotao01 {
+        bottom: 5px;
+        left: 85px;
+        position: relative; 
+     }
+     .card-body {
+        @include card-body;
+     }
+     .posicaoTexto01 {
+        display: none;
+     }
     
     
 }  
@@ -34,7 +47,7 @@
        @include cartoes;
        left: 75px;
        position: absolute;
-       top: 420px;
+       top: 455px;
        
 }
     .cartao_arquivo {
@@ -43,7 +56,16 @@
         top: 50px;
         width: 130px;  
 }
-
+     .posicaoBotao02 {
+        position: relative;
+        right: 46px;
+        top: 110px;
+     }
+     .posicaoTexto02 {
+        display: none;
+        position: relative;
+        top: 115px;
+     }
 }
 
 
@@ -52,8 +74,8 @@
     .terceiro-cartao {
         @include cartoes;
         position: relative;
-        right: 150px;
-        top: 750px;
+        right: 145px;
+        top: 820px;
     }
     .cartao_pessoasMesa {
         left: 50px;
@@ -67,6 +89,18 @@
         right: 2px;
         width: 221px;
     }
-   
+    .posicaoBotao03 {
+        left: 85px;
+        position: relative;
+        top: 10px;
+        
+    }
+    .posicaoTexto03 {
+        display: none;
+        position: relative;
+        top: 20px;
+    }
 }
+   
+
 
