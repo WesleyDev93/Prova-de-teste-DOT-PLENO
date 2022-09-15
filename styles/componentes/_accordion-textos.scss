@@ -13,9 +13,24 @@
      .accordion-header {
        @include estiloBotaoAccordion;
      }
+     .accordion-header:hover{
+          background: #03b5b0;
+     }
      .alteraSimbolo {
         @include alteraSimbolo;
         left: 304px;
         position: relative;
+     }
+     .texto_titulo {
+       position: relative;
+       right: 70px;
+     }
+     .texto_titulo02 {
+      position: relative;
+      right: 25px;
+     }
+     .texto_titulo03 {
+      position: relative;
+      right: 25px;
      }
 }

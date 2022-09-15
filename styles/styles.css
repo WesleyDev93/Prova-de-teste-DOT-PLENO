@@ -342,6 +342,9 @@
   border: 1px solid transparent;
   border-radius: 0px 0px 0px 30px;
 }
+.accordion_textos .accordion-header:hover {
+  background: #03b5b0;
+}
 .accordion_textos .alteraSimbolo {
   border: 1px solid transparent;
   background: #ffcc33;
@@ -350,4 +353,22 @@
   padding: 18px;
   left: 304px;
   position: relative;
+}
+.accordion_textos .texto_titulo {
+  position: relative;
+  right: 70px;
+}
+.accordion_textos .texto_titulo02 {
+  position: relative;
+  right: 25px;
+}
+.accordion_textos .texto_titulo03 {
+  position: relative;
+  right: 25px;
+}
+
+.carrousel .carrousel_titulo {
+  background-color: white;
+  height: 1500px;
+  width: 360px;
 }/*# sourceMappingURL=styles.css.map */
