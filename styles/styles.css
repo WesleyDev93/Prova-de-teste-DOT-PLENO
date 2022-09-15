@@ -354,6 +354,9 @@
   left: 304px;
   position: relative;
 }
+.accordion_textos .alteraSimbolo:hover {
+  background: #7a2b58;
+}
 .accordion_textos .texto_titulo {
   position: relative;
   right: 70px;
@@ -367,8 +370,31 @@
   right: 25px;
 }
 
-.carrousel .carrousel_titulo {
+.carrousel {
   background-color: white;
   height: 1500px;
   width: 360px;
+}
+.carrousel .carrousel_titulo {
+  bottom: 1100px;
+  color: #03b5b0;
+  font-size: 1.5rem;
+  position: relative;
+  text-align: center;
+}
+.carrousel .carrousel_texto {
+  border: 1px solid transparent;
+  bottom: 1050px;
+  color: black;
+  font-size: 1.09rem;
+  left: 40px;
+  position: relative;
+  width: 320px;
+}
+.carrousel .carousel_slider {
+  bottom: 980px;
+  height: 286px;
+  left: 20px;
+  position: relative;
+  width: 320px;
 }/*# sourceMappingURL=styles.css.map */

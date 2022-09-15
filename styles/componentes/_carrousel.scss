@@ -2,14 +2,33 @@
 
 
 .carrousel {
-
+    background-color: white;
+    height: 1500px;
+    width: 360px;
 
     .carrousel_titulo {
-     background-color: white;
-     height: 1500px;
-     width: 360px;
+    bottom: 1100px;
+    color: #03b5b0;
+    font-size: 1.5rem;
+    position: relative;
+    text-align: center;
     }
     .carrousel_texto {
-
+       border: 1px solid transparent;
+       bottom: 1050px;
+       color: black;
+       font-size: 1.09rem;
+       left: 40px;
+       position: relative;
+       width: 320px;
+    }
+    .carousel_slider {
+        bottom: 980px;
+        height: 286px;
+        left: 20px;
+        position: relative;
+        width: 320px;
     }
 }
+
+   
