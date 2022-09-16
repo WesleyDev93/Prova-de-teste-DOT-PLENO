@@ -31,4 +31,56 @@
     }
 }
 
-   
+
+
+
+.carrousel {
+.carousel-control-prev-icon{
+    border: 1px solid #ffcc33;
+    border-radius: 0px 10px 0px 10px;
+    background-color: #ffcc33;
+    position: relative;
+    right: 110px;
+    top: 310px;
+}
+.carousel-control-next-icon {
+    border: 1px solid #ffcc33;
+    border-radius: 0px 10px 0px 10px;
+    background-color: #ffcc33;
+    position: relative;
+    right: 110px;
+    top: 310px;
+}
+.botoesPassar {
+    border-radius: 9999px;
+    border: 1px solid #03b5b0;;
+    background: #03b5b0;
+    padding: 5px;
+    width: 5px;
+}
+.slider_titulo{
+    @include sliderTitulo;
+    left: 5px;
+    position: relative;
+    padding: 20px;
+    width: 315px;
+    
+    
+}
+.slider_texto {
+    @include sliderTexto;
+    left: 5px;
+    position: relative;
+    height: 160px;
+    width: 315px;
+    
+}
+.carousel-indicators {
+    top: 600px;
+}
+}
+
+
+
+    
+    

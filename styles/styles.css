@@ -397,4 +397,53 @@
   left: 20px;
   position: relative;
   width: 320px;
+}
+
+.carrousel .carousel-control-prev-icon {
+  border: 1px solid #ffcc33;
+  border-radius: 0px 10px 0px 10px;
+  background-color: #ffcc33;
+  position: relative;
+  right: 110px;
+  top: 310px;
+}
+.carrousel .carousel-control-next-icon {
+  border: 1px solid #ffcc33;
+  border-radius: 0px 10px 0px 10px;
+  background-color: #ffcc33;
+  position: relative;
+  right: 110px;
+  top: 310px;
+}
+.carrousel .botoesPassar {
+  border-radius: 9999px;
+  border: 1px solid #03b5b0;
+  background: #03b5b0;
+  padding: 5px;
+  width: 5px;
+}
+.carrousel .slider_titulo {
+  border: 1px solid #7a2b58;
+  background: #7a2b58;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  left: 5px;
+  position: relative;
+  padding: 20px;
+  width: 315px;
+}
+.carrousel .slider_texto {
+  border: 1px solid #7a2b58;
+  background: #7a2b58;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  left: 5px;
+  position: relative;
+  height: 160px;
+  width: 315px;
+}
+.carrousel .carousel-indicators {
+  top: 600px;
 }/*# sourceMappingURL=styles.css.map */
