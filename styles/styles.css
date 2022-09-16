@@ -369,10 +369,13 @@
   position: relative;
   right: 25px;
 }
+.accordion_textos .altura {
+  height: 30px;
+}
 
 .carrousel {
   background-color: white;
-  height: 1500px;
+  height: 1px;
   width: 360px;
 }
 .carrousel .carrousel_titulo {
@@ -404,7 +407,7 @@
   border-radius: 0px 10px 0px 10px;
   background-color: #ffcc33;
   position: relative;
-  right: 110px;
+  left: 110px;
   top: 310px;
 }
 .carrousel .carousel-control-next-icon {
@@ -446,4 +449,19 @@
 }
 .carrousel .carousel-indicators {
   top: 600px;
+}
+
+.final {
+  height: 0px;
+}
+.final .rodape {
+  background: #7a2b58;
+  bottom: 150px;
+  position: relative;
+  height: 150px;
+}
+.final .rodape_logo {
+  left: 110px;
+  position: relative;
+  top: 55px;
 }/*# sourceMappingURL=styles.css.map */

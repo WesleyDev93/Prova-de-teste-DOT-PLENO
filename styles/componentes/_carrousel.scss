@@ -3,7 +3,7 @@
 
 .carrousel {
     background-color: white;
-    height: 1500px;
+    height: 1px;
     width: 360px;
 
     .carrousel_titulo {
@@ -35,12 +35,12 @@
 
 
 .carrousel {
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     border: 1px solid #ffcc33;
     border-radius: 0px 10px 0px 10px;
     background-color: #ffcc33;
     position: relative;
-    right: 110px;
+    left: 110px;
     top: 310px;
 }
 .carousel-control-next-icon {
