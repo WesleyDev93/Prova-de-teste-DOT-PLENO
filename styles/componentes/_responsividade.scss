@@ -1,0 +1,105 @@
+// DESKTOP 
+
+@media  (min-width: 360px) and (min-width: 1800px) {
+    .principal {
+        
+    }
+    .cabecalho {
+       
+    }
+    .cabecalho1024 {
+        
+    }
+    .cabecalho_logo{
+        
+    }
+    .cabecalho_titulo{
+       
+    }
+    .cabecalho_texto {
+        
+        
+    }
+    .final {
+        
+
+    }
+    .rodape {
+        
+
+    }
+    .rodape_logo {
+       
+    }
+
+    .accordion {
+    
+    }
+ }
+
+
+
+
+// Telas 1900px
+
+
+ 
+@media  (min-width: 1900px) {
+    .principal {
+        background-color: white;
+        height: 0px;
+    }
+    .principal_bolsafixa, .principal_cards, .informativo, .accordion_textos, .accordion_cirulo , .carrousel, .accordion_texto,.cabecalho_bg {
+        display: none;
+    }
+    .cabecalho {
+       margin-bottom: 70px;
+       width: 1900px;
+    }
+    .cabecalho1024 {
+         display: none !important;
+         
+    }
+    .cabecalhoDesktop {
+        display: block !important;
+    }
+    .cabecalho_logo {
+        width: 250px !important;
+        left: 400px !important;
+    }
+    .cabecalho_titulo{
+        font-size: 2.5rem !important;
+        top: 260px !important;
+        left: 280px !important;
+    }
+    .cabecalho_texto {
+        font-size: 1.8rem !important;
+        top: 330px !important;
+        left: 330px !important;
+        
+    }
+    .final {
+        
+        display: block;
+        height: 160px;
+        width: 1900px;
+
+    }
+    .rodape {
+        height: 450px !important;
+        top: 50px;
+
+    }
+    .rodape_logo {
+       top: 170px !important;
+       left: 780px !important;
+       width: 300px;
+    }
+
+    .accordion {
+       height: 0px;
+       width: 0px;
+    }
+ }
+
+
