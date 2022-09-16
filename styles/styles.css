@@ -472,6 +472,24 @@
   top: 55px;
 }
 
+@media (min-width: 361px) {
+  .principal {
+    height: 5744px;
+    width: 1900px;
+  }
+  .cabecalho, .principal_bolsafixa, .principal_cards, .informativo, .accordion, .final {
+    width: 1900px;
+  }
+  .cabecalhoDesktop {
+    display: block !important;
+  }
+  .cabecalho_bg {
+    display: none !important;
+  }
+  .principal_bolsafixa {
+    width: 1500px;
+  }
+}
 @media (min-width: 1900px) {
   .principal {
     background-color: white;
@@ -491,18 +509,19 @@
     display: block !important;
   }
   .cabecalho_logo {
-    width: 250px !important;
-    left: 400px !important;
+    width: 350px !important;
+    left: 750px !important;
+    bottom: 750px !important;
   }
   .cabecalho_titulo {
-    font-size: 2.5rem !important;
-    top: 260px !important;
-    left: 280px !important;
+    font-size: 4.5rem !important;
+    top: 460px !important;
+    left: 500px !important;
   }
   .cabecalho_texto {
-    font-size: 1.8rem !important;
-    top: 330px !important;
-    left: 330px !important;
+    font-size: 3.4rem !important;
+    top: 630px !important;
+    left: 580px !important;
   }
   .final {
     display: block;
