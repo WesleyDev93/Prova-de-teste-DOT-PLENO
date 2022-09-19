@@ -26,6 +26,7 @@ Os usuários devem ser capazes de:
 ### Captura de tela
 
 Cabeçalho - 
+
 ![image](https://user-images.githubusercontent.com/108889735/191083476-1f8f3149-73fd-494b-a981-622467dab7b7.png)
 
 
