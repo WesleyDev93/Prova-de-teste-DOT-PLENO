@@ -472,24 +472,6 @@
   top: 55px;
 }
 
-@media (min-width: 361px) {
-  .principal {
-    height: 5744px;
-    width: 1900px;
-  }
-  .cabecalho, .principal_bolsafixa, .principal_cards, .informativo, .accordion, .final {
-    width: 1900px;
-  }
-  .cabecalhoDesktop {
-    display: block !important;
-  }
-  .cabecalho_bg {
-    display: none !important;
-  }
-  .principal_bolsafixa {
-    width: 1500px;
-  }
-}
 @media (min-width: 1900px) {
   .principal {
     background-color: white;
